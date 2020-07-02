@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
+    "inquire": "^0.4.8",
     "inquirer": "^6.3.1"
   }
 }
