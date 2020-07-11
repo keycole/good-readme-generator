@@ -1,11 +1,12 @@
 function generateMarkdown(data) {
   return `
-[![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
+  ${data.picture}
+  ${data.email}
 
-//***If user answers yes to inclusion
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![HitCount](http://hits.dwyl.com/${data.username}/${data.title}.svg)](http://hits.dwyl.com/${data.usernema}/${data.title})
+${data.contributingBadge}
+
 # ${data.title}
-
 
 ## Description
 ${data.description}
