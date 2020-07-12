@@ -14,7 +14,7 @@ A command-line application that dynamically generates a README.md from the user'
 ---
 
 ## Installation
--After cloning the repository, navigate to the folder containing index.js via the terminal and enter: ```npm i``` <br> -After installing the dependencies, initiate the README generator by entering the following in the command line: ```node index.js
+-After cloning the repository, navigate to the folder containing index.js via the terminal and enter: ```npm i``` <br> -After installing the dependencies, initiate the README generator by entering the following in the command line: ```node index.js```
 
 ## Usage
 Use this application to generate a complete README file with little effort.
@@ -23,7 +23,7 @@ Use this application to generate a complete README file with little effort.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
--As advertized at the top of the page, contributions are welcome! <br> -Please fork the repo and extend or improve the application's functionality. <br> Be sure to share your successes or reach out in case you have any questions.
+-As advertized at the top of the page, contributions are welcome! <br> -Please fork the repo and extend or improve the application's functionality. <br> -Be sure to share your successes or reach out in case you have any questions.
 
 ## Tests
 There are no tests available at this time. Please feel free to create or suggest some!
