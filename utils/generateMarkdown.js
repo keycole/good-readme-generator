@@ -1,12 +1,10 @@
 function generateMarkdown(data) {
-  return `
-  ${data.picture}
-  ${data.email}
+    return `
+${data.profile}
 
-[![HitCount](http://hits.dwyl.com/${data.username}/${data.title}.svg)](http://hits.dwyl.com/${data.usernema}/${data.title})
 ${data.contributingBadge}
 
-# ${data.title}
+<h1>${data.title}</h1>
 
 ## Description
 ${data.description}
@@ -29,10 +27,8 @@ ${data.license}
 ${data.contributing}
 
 ## Tests
-Describe and show how to run the tests with code examples.
-${data.contributing}
-
+${data.tests}
 `;
 }
 
-module.exports = generateMarkdown();
+module.exports = generateMarkdown;
