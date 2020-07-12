@@ -135,10 +135,10 @@ const questions = () => {
             let b = 'Ask Me Anything (To include, you must provide your email address when prompted later on.)';
 
             if (array.includes(a) && array.includes(b)) {
-                contributeBadgeChoice = `[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)](https://shields.io/)&nbsp;&nbsp;&nbsp;[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:${answers.email})`;
+                contributeBadgeChoice = `[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)](https://github.com/keycole)&nbsp;&nbsp;&nbsp;[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:${answers.email})`;
                 return contributeBadgeChoice;
             } else if (array.includes(a)) {
-                contributeBadgeChoice = '[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)](https://shields.io/)';
+                contributeBadgeChoice = '[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)](https://github.com/keycole)';
                 return contributeBadgeChoice;
             } else if (array.includes(b)) {
                 contributeBadgeChoice = `![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:${answers.email})`;
