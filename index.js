@@ -152,13 +152,13 @@ const questions = () => {
 
         const profileInfoFunction = function () {
             if (answers.includePic == true && answers.includeEmail == true) {
-                profileInfo = `<div style='float:right; clear:both'><img src='${answers.profilePic}' alt='${answers.username} profile picture' width='120'><div><b>Repo Owner:</b> ${answers.givenName}</div><div><b>Email:</b> ${answers.email}</div></div>`
+                profileInfo = `<div><img src='${answers.profilePic}' alt='${answers.username} profile picture' width='120'><div><p><b>Repo Owner:</b> ${answers.givenName}</p></div><div><p><b>Email:</b> ${answers.email}</p></div></div>`
                 return profileInfo;
             } else if (answers.includePic == true) {
-                profileInfo = `<div style='float:right; clear:both'><img src='${answers.profilePic}' alt='${answers.username} profile picture' width='120'><div><b>Repo Owner:</b> ${answers.givenName}</div></div>`;
+                profileInfo = `<div><img src='${answers.profilePic}' alt='${answers.username} profile picture' width='120'><div><p><b>Repo Owner:</b> ${answers.givenName}</p></div></div>`;
                 return profileInfo;
             } else if (answers.includeEmail == true) {
-                profileInfo = `<div style='align:center'><div><b>Repo Owner:</b> ${answers.givenName}</div><div><b>Email:</b> ${answers.email}</div></div>`
+                profileInfo = `<div style='align:center'><div><b>Repo Owner:</b> ${answers.givenName}</div><div><p><b>Email:</b> ${answers.email}</p></div></div>`
             } else {
                 return profileInfo;
             }

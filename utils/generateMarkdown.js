@@ -1,7 +1,5 @@
 function generateMarkdown(data) {
     return `
-${data.profile}
-
 ${data.contributingBadge}
 
 <h1>${data.title}</h1>
@@ -28,6 +26,9 @@ ${data.contributing}
 
 ## Tests
 ${data.tests}
+
+## Here's Who Made This
+${data.profile}
 `;
 }
 
