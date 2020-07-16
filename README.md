@@ -8,15 +8,19 @@ A command-line application that dynamically generates a README.md from the user'
 
 #### Table of Contents
 
-[Installation](#installation)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Usage](#usage)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[License](#license)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Contributing](#contributing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tests](#tests)
+[Installation](#installation)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Usage](#usage)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[License](#license)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Contributing](#contributing)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Tests](#tests)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Questions](#questions)
 
 ---
 
 ## Installation
--After cloning the repository, navigate to the folder containing index.js via the terminal and enter: ```npm i``` <br> -After installing the dependencies, initiate the README generator by entering the following into the command line: ```node index.js```  
+- After cloning the repository, navigate to the folder containing index.js via the terminal and enter: ```npm i``` 
+- After installing the dependencies, initiate the README generator by entering the following into the command line: ```node index.js```  
 
 
 ## Usage
+
+**Link to screencast:** https://drive.google.com/file/d/1zdjurd6vrCbrNUlpGn7IAwPM3mNQt6pS/view
+
 ![Demo](assets/readmeImages/readmeGeneratorDemo.gif) 
 
 
@@ -25,10 +29,15 @@ A command-line application that dynamically generates a README.md from the user'
 
 
 ## Contributing
--As advertised by the badge at the top of this page: Contributions Are Welcome! <br> -Please fork the repository and extend or improve the application's functionality <br> -Be sure to share your successes, or reach out if you have any questions, via the email provided in this doc
+- As advertised by the badge at the top of this page: Contributions Are Welcome!
+- Please fork the repository and extend or improve the application's functionality
+- Be sure to share your successes, or reach out if you have any questions, via the email provided in this doc
 
 ## Tests
 There are no tests at this time. Please feel free to create or suggest some!
+
+## Questions
+Please feel free to reach out and ask me any questions using the email address provided below. 
 
 
 ## Here's Who Made This
