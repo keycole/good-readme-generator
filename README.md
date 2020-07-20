@@ -18,10 +18,15 @@ A command-line application that dynamically generates a README.md from the user'
 
 
 ## Usage
+- When responding to the prompts in the README generator questionnaire, users can use markdown syntax to add images and links. Users can review this reference to familiarize themselves with the possibilities: https://daringfireball.net/projects/markdown/syntax
+
+- A screencast, GIF file, and link to a sample README.md file generated with the app are included below.
 
 **Link to screencast:** https://drive.google.com/file/d/1zdjurd6vrCbrNUlpGn7IAwPM3mNQt6pS/view
 
 ![Demo](assets/readmeImages/readmeGeneratorDemo.gif) 
+
+**Generated README Example:** <a href="readmeExample.md" width="600px">Readme Example Doc</a>
 
 
 ## License
