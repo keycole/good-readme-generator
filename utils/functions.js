@@ -16,6 +16,7 @@ let processedAnswers = {
     selectedLicense: '',
     userContributing: '',
     userTests: '',
+    userQuestions: '',
     email: '',
     profileInfo: ''
 };
@@ -74,6 +75,11 @@ const readmeQuestions = [
         type: 'input',
         name: 'tests',
         message: 'Please list any tests that may be associated with your project. Separate items that should appear on separate lines with a | symbol.'
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Please specify how users can contact you with questions. Separate items that should appear on separate lines with a | symbol.'
     },
     {
         type: 'confirm',
@@ -171,6 +177,7 @@ const axiosCallUser = () => {
             processedAnswers.userUsage = returnedAnswers.usage.split('|').join('<br>');
             processedAnswers.userContributing = returnedAnswers.contributing.split('|').join('<br>');
             processedAnswers.userTests = returnedAnswers.tests.split('|').join('<br>');
+            processedAnswers.userQuestions = returnedAnswers.questions.split('|').join('<br>');
             processedAnswers.email = returnedAnswers.email;
             processedAnswers.includePic = returnedAnswers.includePic;
             processedAnswers.userPic = response.data.avatar_url;

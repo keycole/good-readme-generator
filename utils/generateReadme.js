@@ -31,6 +31,8 @@ ${processedAnswers.userContributing}
 ## Tests
 ${processedAnswers.userTests}
 
+## Questions
+${processedAnswers.userQuestions}
 
 ## Here's Who Made This
 ${processedAnswers.profileInfo}
